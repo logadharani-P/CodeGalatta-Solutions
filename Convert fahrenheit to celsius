@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        // Write your code here
+        double temp = sc.nextDouble();
+        double cel = (temp-32)*(5.0/9);
+
+        DecimalFormat df = new DecimalFormat("0.00");
+
+        System.out.println(df.format(cel));
+    }
+}
