@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // Write your code here
-        int p = sc.nextInt();
-        int r = sc.nextInt();
-        int t =sc.nextInt();
+        double p = sc.nextDouble();
+        double r = sc.nextDouble();
+        double t =sc.nextDouble();
 
         double si =(p*r*t)/100;
 
